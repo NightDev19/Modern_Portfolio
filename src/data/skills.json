@@ -20,6 +20,10 @@
     "icon": "vscode-icons:file-type-css"
   },
   {
+    "name": "Vite",
+    "icon": "logos:vitejs"
+  },
+  {
     "name": "React",
     "icon": "logos:react"
   },
@@ -28,19 +32,19 @@
     "icon": "logos:vue"
   },
   {
-    "name":"Kotlin",
+    "name": "Kotlin",
     "icon": "mdi:language-kotlin"
   },
   {
-    "name":"Java",
+    "name": "Java",
     "icon": "devicon:java"
   },
   {
-    "name":"C#",
+    "name": "C#",
     "icon": "teenyicons:c-sharp-solid"
   },
   {
-    "name":"C++",
+    "name": "C++",
     "icon": "devicon:cplusplus"
   },
   {
@@ -75,7 +79,10 @@
     "name": "Bootstrap",
     "icon": "logos:bootstrap"
   },
-
+  {
+    "name": "Figma",
+    "icon": "logos:figma"
+  },
   {
     "name": "Vercel",
     "icon": "skill-icons:vercel-dark"
@@ -83,6 +90,10 @@
   {
     "name": "Netlify",
     "icon": "skill-icons:netlify-dark"
+  },
+  {
+    "name": "Markdown",
+    "icon": "cib:markdown"
   },
   {
     "name": "Git",

@@ -46,10 +46,15 @@
     "link": "https://nightdev19.github.io/Recipe_Generator.io/",
     "repo": "https://github.com/NightDev19/Recipe_Generator.io",
     "image": "https://github.com/NightDev19/Recipe_Generator.io/blob/main/image_2024-06-15_230546266.png?raw=true",
-    "langs": [
-      "skill-icons:css",
-      "logos:html-5",
-      "devicon:javascript"
-    ]
+    "langs": ["skill-icons:css", "logos:html-5", "devicon:javascript"]
+  },
+  {
+    "id": 5,
+    "title": "Modern Portfolio",
+    "description": "Making my own modern portfolio using Vite , Vuejs , Tailwindcss and DaisyUI to present my skills and projects",
+    "link": "https://modern-portfolio-eight-kappa.vercel.app",
+    "repo": "https://github.com/NightDev19/Modern_Portfolio",
+    "image": "https://github.com/NightDev19/Modern_Portfolio/blob/main/src/assets/HomeImage.png?raw=true",
+    "langs": [ "devicon:javascript", "devicon:vuejs", "devicon:tailwindcss", "logos:daisyui"]
   }
 ]
