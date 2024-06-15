@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "title": "2D Game",
+    "description": "A Game using Kaboom.js its a just a simple game that i saw i youtube and implement it in Vanilla Javascript",
+    "link": "https://2-d-game-ten.vercel.app",
+    "repo": "https://github.com/NightDev19/2DGame",
+    "image": "https://github.com/NightDev19/2DGame/blob/main/Assets/2DGame.png?raw=true",
+    "langs": ["logos:javascript", "skill-icons:css", "logos:html-5"]
+  },
+  {
+    "id": 2,
+    "title": "Soil Monitoring Arduino&Web Based System",
+    "description": "A Defended Capstone with a Farmer Client that created by me and my groupmates",
+    "link": "https://soilqualitymonitoring.000webhostapp.com",
+    "repo": "https://github.com/NightDev19/SoilMonitoring",
+    "image": "https://github.com/NightDev19/SoilMonitoring/blob/main/Images/Screenshot%202024-06-12%20192736.png?raw=true",
+    "langs": [
+      "skill-icons:arduino",
+      "devicon:php",
+      "skill-icons:css",
+      "logos:html-5",
+      "devicon:cplusplus",
+      "devicon:javascript",
+      "devicon:tailwindcss"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Pokedex2.0",
+    "description": "Just making an existing project of mine but this is better and more smooth than the first",
+    "link": "nightdev19.github.io/Pokedex2.0/",
+    "repo": "https://github.com/NightDev19/Pokedex2.0",
+    "image": "https://github.com/NightDev19/Pokedex2.0/raw/main/Screenshots/mainScreen.png",
+    "langs": [
+      "skill-icons:css",
+      "logos:html-5",
+      "devicon:javascript",
+      "devicon:tailwindcss"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Recipe Generator",
+    "description": "Making my own recipe generator in Vanilla Javascript using an API that generate a random dish with the ingredients and the procedure of the dish",
+    "link": "https://nightdev19.github.io/Recipe_Generator.io/",
+    "repo": "https://github.com/NightDev19/Recipe_Generator.io",
+    "image": "https://github.com/NightDev19/Recipe_Generator.io/blob/main/image_2024-06-15_230546266.png?raw=true",
+    "langs": [
+      "skill-icons:css",
+      "logos:html-5",
+      "devicon:javascript"
+    ]
+  }
+]
