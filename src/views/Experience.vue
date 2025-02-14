@@ -21,10 +21,16 @@
       <TimelineItem title="Freelancing">
         One year freelancing as a web developer, navigating projects and
         relishing the freedom of self-employment.
+        <br>S.Y. 2023 - current
       </TimelineItem>
       <TimelineItem title="Internship">
         Worked as an intern in the field of IT Support and Encoder at South East
         Star Enterprises .
+        <br>S.Y March 2024 - May 2024
+      </TimelineItem>
+      <TimelineItem title="Secondary Teacher">
+        Worked as an Teacher in the field of ICT - Computer programming at Tanauan City Academy ,
+        <br>S.Y. August 2024 - current
       </TimelineItem>
     </div>
   </section>

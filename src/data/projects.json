@@ -59,8 +59,8 @@
   },
   {
     "id": 6,
-    "title": "Modern Portfolio",
-    "description": "Making my own modern portfolio using Vite , Vuejs , Tailwindcss and DaisyUI to present my skills and projects",
+    "title": "Facebook Poke Back",
+    "description": "Make my own enjoyment in facebook through poke that uses Web Scraping",
     "link": "https://github.com/NightDev19/FB_PokeBack",
     "repo": "https://github.com/NightDev19/FB_PokeBack",
     "image": "https://pbs.twimg.com/media/GIu5parWcAAj05Y?format=png&name=360x360",
