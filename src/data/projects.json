@@ -56,5 +56,14 @@
     "repo": "https://github.com/NightDev19/Modern_Portfolio",
     "image": "https://github.com/NightDev19/Modern_Portfolio/blob/main/src/assets/HomeImage.png?raw=true",
     "langs": [ "devicon:javascript", "devicon:vuejs", "devicon:tailwindcss", "logos:daisyui"]
+  },
+  {
+    "id": 6,
+    "title": "Modern Portfolio",
+    "description": "Making my own modern portfolio using Vite , Vuejs , Tailwindcss and DaisyUI to present my skills and projects",
+    "link": "https://github.com/NightDev19/FB_PokeBack",
+    "repo": "https://github.com/NightDev19/FB_PokeBack",
+    "image": "https://pbs.twimg.com/media/GIu5parWcAAj05Y?format=png&name=360x360",
+    "langs": [ "devicon:python"]
   }
 ]
