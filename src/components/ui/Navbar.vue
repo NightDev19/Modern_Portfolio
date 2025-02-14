@@ -39,19 +39,19 @@
     </div>
     <div class="navbar-end flex gap-2 pr-2">
       <div class="tooltip tooltip-bottom" data-tip="Github">
-        <a href=""
+        <a href="https://github.com/NightDev19"
           ><Icon icon="fontisto:github" class="lg:w-6 lg:h-6 w-4 h-4"
         /></a>
       </div>
       <div class="tooltip tooltip-bottom" data-tip="Facebook">
-        <a href=""
+        <a href="https://www.facebook.com/tajan.sherwinjefferson/"
           ><Icon icon="fontisto:facebook" class="lg:w-6 lg:h-6 w-4 h-4"
         /></a>
       </div>
 
-      <div class="tooltip tooltip-bottom" data-tip="Insta">
-        <a href=""
-          ><Icon icon="fontisto:instagram" class="lg:w-6 lg:h-6 w-4 h-4"
+      <div class="tooltip tooltip-bottom" data-tip="LinkedIn">
+        <a href="https://www.linkedin.com/in/sherwin-jefferson-tajan-4b3199269/"
+          ><Icon icon="fontisto:linkedin" class="lg:w-6 lg:h-6 w-4 h-4"
         /></a>
       </div>
     </div>

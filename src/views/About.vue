@@ -20,8 +20,8 @@
     <div class="flex flex-wrap justify-start mx-6 md:mx-10 mt-5">
       <SlideIn v-for="(item, index) in info" :key="index">
         <div class="text-white text-lg leading-relaxed">
-          <h2 class="text-2xl font-semibold">{{ item.name }}</h2>
-          <p class="mt-2">{{ item.description }}</p>
+          <h2 class="text-2xl font-semibold">Hello I'm {{ item.name }}</h2>
+          <p class="mt-2 text-justify">{{ item.description }}</p>
         </div>
       </SlideIn>
     </div>
