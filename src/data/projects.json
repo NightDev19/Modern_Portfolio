@@ -32,12 +32,7 @@
     "link": "nightdev19.github.io/Pokedex2.0/",
     "repo": "https://github.com/NightDev19/Pokedex2.0",
     "image": "https://github.com/NightDev19/Pokedex2.0/raw/main/Screenshots/mainScreen.png",
-    "langs": [
-      "skill-icons:css",
-      "logos:html-5",
-      "devicon:javascript",
-      "devicon:tailwindcss"
-    ]
+    "langs": ["skill-icons:css", "logos:html-5", "devicon:javascript", "devicon:tailwindcss"]
   },
   {
     "id": 4,
@@ -55,7 +50,7 @@
     "link": "https://modern-portfolio-eight-kappa.vercel.app",
     "repo": "https://github.com/NightDev19/Modern_Portfolio",
     "image": "https://github.com/NightDev19/Modern_Portfolio/blob/main/src/assets/HomeImage.png?raw=true",
-    "langs": [ "devicon:javascript", "devicon:vuejs", "devicon:tailwindcss", "logos:daisyui"]
+    "langs": ["devicon:javascript", "devicon:vuejs", "devicon:tailwindcss", "logos:daisyui"]
   },
   {
     "id": 6,
@@ -64,6 +59,15 @@
     "link": "https://github.com/NightDev19/FB_PokeBack",
     "repo": "https://github.com/NightDev19/FB_PokeBack",
     "image": "https://pbs.twimg.com/media/GIu5parWcAAj05Y?format=png&name=360x360",
-    "langs": [ "devicon:python"]
+    "langs": ["devicon:python"]
+  },
+  {
+    "id": 7,
+    "title": "Innocore",
+    "description": "My First Contribute to a Start Up company as a Front-End Developer that helps me to gain Experience in a real world project",
+    "link": "https://innocore-tech-solutions.vercel.app/",
+    "repo": "none",
+    "image": "https://innocore-tech-solutions.vercel.app/LogoCircle.png",
+    "langs": ["devicon:react", "devicon:tailwindcss", "devicon:nextjs", "devicon:typescript"]
   }
 ]
