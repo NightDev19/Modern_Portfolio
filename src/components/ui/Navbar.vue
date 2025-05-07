@@ -1,17 +1,12 @@
 <template>
-  <div
-    class="navbar fixed top-0 z-30 h-16 lg:h-14 w-full bg-base-600 bg-opacity-40 shadow-xl backdrop-blur-lg border border-opacity-20 border-gray-700"
+  <nav
+    class="fixed top-0 w-full bg-gray-900 bg-opacity-70 backdrop-blur-md shadow-md border-b border-gray-700 z-30"
   >
-    <div class="navbar-start">
-      <div class="dropdown">
-        <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-5 w-5"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
+    <div class="flex items-center justify-between h-16 px-4">
+      <!-- Dropdown Menu -->
+      <div class="relative">
+        <button @click="showMenu = !showMenu" class="btn btn-ghost text-white">
+          <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -19,52 +14,60 @@
               d="M4 6h16M4 12h16M4 18h7"
             />
           </svg>
-        </div>
-        <ul
-          tabindex="0"
-          class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
-        >
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contacts">Contacts</a></li>
+        </button>
+        <ul v-show="showMenu" class="absolute bg-gray-800 text-white mt-2 rounded shadow w-48">
+          <li v-for="item in menuItems" :key="item.href">
+            <a
+              :href="item.href"
+              @click="showMenu = false"
+              class="block px-4 py-2 hover:bg-gray-700"
+              >{{ item.text }}</a
+            >
+          </li>
         </ul>
       </div>
-    </div>
-    <div class="navbar-center">
-      <a href="/" class="btn btn-ghost text-sm lg:text-xl">&lt;NightDev/&gt;</a>
-    </div>
-    <div class="navbar-end flex gap-2 pr-2">
-      <div class="tooltip tooltip-bottom" data-tip="Github">
-        <a href="https://github.com/NightDev19"
-          ><Icon icon="fontisto:github" class="lg:w-6 lg:h-6 w-4 h-4"
-        /></a>
-      </div>
-      <div class="tooltip tooltip-bottom" data-tip="Facebook">
-        <a href="https://www.facebook.com/tajan.sherwinjefferson/"
-          ><Icon icon="fontisto:facebook" class="lg:w-6 lg:h-6 w-4 h-4"
-        /></a>
-      </div>
 
-      <div class="tooltip tooltip-bottom" data-tip="LinkedIn">
-        <a href="https://www.linkedin.com/in/sherwin-jefferson-tajan-4b3199269/"
-          ><Icon icon="fontisto:linkedin" class="lg:w-6 lg:h-6 w-4 h-4"
-        /></a>
+      <!-- Logo -->
+      <a href="/" class="text-white text-lg font-bold">&lt;NightDev/&gt;</a>
+
+      <!-- Social Links -->
+      <div class="flex gap-3">
+        <a
+          v-for="icon in icons"
+          :key="icon.name"
+          :href="icon.link"
+          target="_blank"
+          class="text-white hover:text-sky-400"
+        >
+          <Icon :icon="icon.name" class="w-5 h-5" />
+        </a>
       </div>
     </div>
-  </div>
+  </nav>
 </template>
 
-<script>
-import { Icon } from "@iconify/vue";
+<script setup>
+import { ref } from 'vue';
+import { Icon } from '@iconify/vue';
 
-export default {
-  name: "Navbar",
-  components: {
-    Icon,
+const showMenu = ref(false);
+
+const menuItems = [
+  { text: 'Home', href: '#home' },
+  { text: 'About', href: '#about' },
+  { text: 'Skills', href: '#skills' },
+  { text: 'Education', href: '#education' },
+  { text: 'Experience', href: '#experience' },
+  { text: 'Projects', href: '#projects' },
+  { text: 'Contacts', href: '#contacts' },
+];
+
+const icons = [
+  { name: 'fontisto:github', link: 'https://github.com/NightDev19' },
+  { name: 'fontisto:facebook', link: 'https://www.facebook.com/tajan.sherwinjefferson/' },
+  {
+    name: 'fontisto:linkedin',
+    link: 'https://www.linkedin.com/in/sherwin-jefferson-tajan-4b3199269/',
   },
-};
+];
 </script>

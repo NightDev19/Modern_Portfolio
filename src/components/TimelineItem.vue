@@ -1,40 +1,49 @@
 <template>
-  <div
-    class="flex flex-row items-start border-l-5 border-gray-800 py-3"
-    :class="className"
-  >
+  <!-- Main container with vertical line and padding -->
+  <div class="flex flex-row items-start py-3" :class="['custom-border', className]">
+    <!-- Slide-in animation wrapper -->
     <SlideIn>
       <div class="w-full rounded-md mx-5">
+        <!-- Section title -->
         <h1 class="text-white text-2xl font-bold">{{ title }}</h1>
-        <p class="text-gray-400 mt-1 pb-2"><slot></slot></p>
+
+        <!-- Content passed from parent using slot -->
+        <p class="text-gray-400 mt-1 pb-2">
+          <slot></slot>
+        </p>
       </div>
     </SlideIn>
   </div>
 </template>
 
 <script>
-import SlideIn from "./ui/SlideIn.vue"; // Import the SlideIn component
+import SlideIn from './ui/SlideIn.vue'; // Import animation component
 
 export default {
+  name: 'SectionCard', // Helpful name for devtools
+
   props: {
+    // Title to display at the top
     title: {
       type: String,
       required: true,
     },
+    // Optional additional CSS classes for customization
     className: {
       type: String,
-      default: "",
+      default: '',
     },
   },
+
   components: {
-    SlideIn, // Register the SlideIn component
+    SlideIn, // Register slide animation component
   },
 };
 </script>
 
 <style scoped>
-.border-l-5 {
-  border-left-width: 5px;
-  border-left-color: #62778d; /* Choose your desired color */
+/* Custom left border style (5px wide, colored) */
+.custom-border {
+  border-left: 5px solid #62778d;
 }
 </style>
