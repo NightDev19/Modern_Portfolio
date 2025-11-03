@@ -28,8 +28,16 @@
     "icon": "logos:react"
   },
   {
+    "name": "Next.js",
+    "icon": "logos:nextjs-icon"
+  },
+  {
     "name": "Vue",
     "icon": "logos:vue"
+  },
+  {
+    "name": "Nuxt.js",
+    "icon": "logos:nuxt-icon"
   },
   {
     "name": "Kotlin",
@@ -38,6 +46,10 @@
   {
     "name": "Java",
     "icon": "devicon:java"
+  },
+  {
+    "name": "Spring Boot",
+    "icon": "logos:spring-icon"
   },
   {
     "name": "C#",
@@ -64,8 +76,20 @@
     "icon": "skill-icons:nodejs-dark"
   },
   {
+    "name": "Socket.io",
+    "icon": "logos:socket-io"
+  },
+  {
     "name": "MongoDB",
     "icon": "skill-icons:mongodb"
+  },
+  {
+    "name": "MySQL",
+    "icon": "logos:mysql"
+  },
+  {
+    "name": "PostgreSQL",
+    "icon": "logos:postgresql"
   },
   {
     "name": "Supabase",
@@ -104,8 +128,16 @@
     "icon": "fontisto:github"
   },
   {
+    "name": "Github Actions",
+    "icon": "logos:github-actions"
+  },
+  {
     "name": "VS Code",
     "icon": "skill-icons:vscode-dark"
+  },
+  {
+    "name": "Jest",
+    "icon": "logos:jest"
   },
   {
     "name": "Arduino",
