@@ -40,7 +40,7 @@
             <TimelineItem title="Software Engineer III">
                 Worked as a Software Engineer III at CodeFusion IT Solutions
                 Company.
-                <br />S.Y. August 2025 - current
+                <br />S.Y. June 2025 - current
             </TimelineItem>
         </div>
     </section>
