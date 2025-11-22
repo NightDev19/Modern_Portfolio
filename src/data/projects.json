@@ -28,16 +28,11 @@
   {
     "id": 3,
     "title": "Pokedex2.0",
-    "description": "Just making an existing project of mine but this is better and more smooth than the first",
+    "description": "Just making an existing project of mine but this is better and more smooth than the first using Vuejs , Typescript and Tailwindcss ",
     "link": "https://pokemon-dex-bice-eight.vercel.app/",
     "repo": "https://github.com/NightDev19/Pokedex2.0",
     "image": "https://github.com/NightDev19/Pokedex2.0/raw/main/Screenshots/mainScreen.png",
-    "langs": [
-      "skill-icons:css",
-      "logos:html-5",
-      "devicon:javascript",
-      "devicon:tailwindcss"
-    ]
+    "langs": ["devicon:typescript", "devicon:vuejs", "devicon:tailwindcss"]
   },
   {
     "id": 4,
