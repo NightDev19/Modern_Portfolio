@@ -32,7 +32,12 @@
     "link": "nightdev19.github.io/Pokedex2.0/",
     "repo": "https://github.com/NightDev19/Pokedex2.0",
     "image": "https://github.com/NightDev19/Pokedex2.0/raw/main/Screenshots/mainScreen.png",
-    "langs": ["skill-icons:css", "logos:html-5", "devicon:javascript", "devicon:tailwindcss"]
+    "langs": [
+      "skill-icons:css",
+      "logos:html-5",
+      "devicon:javascript",
+      "devicon:tailwindcss"
+    ]
   },
   {
     "id": 4,
@@ -50,7 +55,12 @@
     "link": "https://modern-portfolio-eight-kappa.vercel.app",
     "repo": "https://github.com/NightDev19/Modern_Portfolio",
     "image": "https://github.com/NightDev19/Modern_Portfolio/blob/main/src/assets/HomeImage.png?raw=true",
-    "langs": ["devicon:javascript", "devicon:vuejs", "devicon:tailwindcss", "logos:daisyui"]
+    "langs": [
+      "devicon:javascript",
+      "devicon:vuejs",
+      "devicon:tailwindcss",
+      "logos:daisyui"
+    ]
   },
   {
     "id": 6,
@@ -68,6 +78,27 @@
     "link": "https://innocore-tech-solutions.vercel.app/",
     "repo": "none",
     "image": "https://github.com/NightDev19/Modern_Portfolio/blob/main/src/assets/Logo-Orange.png?raw=true",
-    "langs": ["devicon:react", "devicon:tailwindcss", "devicon:nextjs", "devicon:typescript"]
+    "langs": [
+      "devicon:react",
+      "devicon:tailwindcss",
+      "devicon:nextjs",
+      "devicon:typescript"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Notes",
+    "description": "Making my own notes app using Express , Nodejs, Ejs, Tailwindcss ,Postgresql and supabase to present my notes and projects",
+    "link": "https://notes-lime-gamma.vercel.app/",
+    "repo": "https://github.com/NightDev19/Notes",
+    "image": "../public/image.png",
+    "langs": [
+      "devicon:javascript",
+      "devicon:express",
+      "devicon:nodejs",
+      "devicon:tailwindcss",
+      "devicon:postgresql",
+      "devicon:supabase"
+    ]
   }
 ]
